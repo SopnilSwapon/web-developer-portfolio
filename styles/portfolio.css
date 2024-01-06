@@ -190,11 +190,12 @@ main section {
     margin-top: 40px;
 }
 
-footer {
+footer{
     display: flex;
     background: #FFF8F3;
     padding: 130px 200px;
     margin-top: 100px;
+    height: 350;
     gap: 100px;
 }
 
