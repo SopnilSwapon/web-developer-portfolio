@@ -8,10 +8,14 @@ body {
 
 nav {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 200px;
 }
 
 nav>ul {
     display: flex;
+    align-items: center;
 }
 
 nav li {
@@ -37,4 +41,24 @@ li a {
 .btn-primary {
     border-radius: 5px;
     background: #FD6E0A;
+    padding: 15px 30px;
+    border: 0px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
 }
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+   
+}
+.banner .profile-pic{
+    height: 500px;
+}
+
+
